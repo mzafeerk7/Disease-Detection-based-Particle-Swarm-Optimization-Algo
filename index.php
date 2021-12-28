@@ -1,3 +1,6 @@
+
+-*- mode: php; -*-
+
 <!doctype html>
 <html>
     <head>
@@ -19,7 +22,7 @@
         <!--Responsive css-->
         <link rel="stylesheet" href="assets/css/responsive.css">
         <!--modernizr js-->
-        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="<?php echo "assets/js/vendor/modernizr-3.5.0.min.js"; ?>"></script>
     </head>
     <body>
         <!--Start Preloader Area-->
@@ -160,4 +163,11 @@
         <!--main js-->
         <script src="assets/js/main.js"></script>
     </body>
+
+    <?php 
+        $a = 1;
+        if($a == 1){
+
+        }
+    ?>
 </html>    
