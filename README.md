@@ -1,2 +1,2 @@
-# Disease-Detection-Based-Particle-Swarm-Optimization
+# Disease-Detection-Based-Particle-Swarm-Optimization Algo
  
